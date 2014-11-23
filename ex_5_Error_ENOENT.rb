@@ -1,0 +1,1 @@
+open('nothing.txt')
