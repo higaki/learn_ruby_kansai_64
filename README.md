@@ -16,6 +16,8 @@ ex{1.to_sym}  # => "undefined method `to_sym' for 1:Fixnum (NoMethodError)"
 ex{1 + "1"}   # => "String can't be coerced into Fixnum (TypeError)"
 ```
 
+[解答例](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex1.rb)
+
 ### 演習問題2
 
 いろいろな例外を発生させてみよう
@@ -35,6 +37,8 @@ ex{1 + "1"}   # => "String can't be coerced into Fixnum (TypeError)"
 - 本当は何をしたかったのか
 - 修正してみよう
 
+[解答例](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex3.rb)
+
 ### 演習問題4
 
 デバッグしてみよう
@@ -51,3 +55,5 @@ age '1993-02-24'
 # ~> -:2:in `age': undefined method `strftime' for "1993-02-24":String (NoMethodError)
 # ~> 	from -:7:in `<main>'
 ```
+
+[解答例](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex4.rb)
