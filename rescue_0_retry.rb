@@ -1,9 +1,8 @@
 files = %w[file.txt file1.txt file2.txt]
-files.each do |fn|
-  begin
-    open(fn, 'w'){|f| f.puts 'Ruby!!'}
-    break
-  rescue => ex
-    $stderr.puts "#{ex} (#{ex.class})"
-  end
+
+begin
+  open(files.shift, 'w'){|f| f.puts 'Ruby!!'}
+rescue SystemCallError => ex
+  $stderr.puts "#{ex} (#{ex.class})"
+  retry
 end
