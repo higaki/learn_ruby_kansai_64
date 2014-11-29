@@ -1,1 +1,2 @@
-raise TypeError.new("can't convert...")
+ex = TypeError.new("can't convert...")
+raise ex
