@@ -25,6 +25,11 @@ ex{1 + "1"}   # => "String can't be coerced into Fixnum (TypeError)"
 - KeyError を捕捉しよう
 - KeyError と StopIteration を捕捉しよう
 
+#### 解答例
+[そのまま](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex2.rb)  
+[rescue するクラスは列挙できる](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex2_1.rb)  
+[親クラスで rescue](https://github.com/higaki/learn_ruby_kansai_64/blob/master/ex2_2.rb)
+
 ### 演習問題3
 
 デバッグしてみよう
